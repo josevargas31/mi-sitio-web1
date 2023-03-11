@@ -1,0 +1,13 @@
+body {
+background-color: rgb(66, 59, 59);
+}
+.lista {
+    color: white;
+    font-size: 1.6em;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+}

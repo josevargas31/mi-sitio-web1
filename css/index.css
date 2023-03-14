@@ -26,4 +26,19 @@ background-color: rgb(66, 59, 59);
    border-radius: 15px;
 
    box-shadow: 0 9px #000000;
+   margin-right: 20px;
+}
+.fondo {
+background-image: url(./cafe.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+img {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    size: cover;
+    margin-left: 480px;
+    margin: 0 auto;
 }

@@ -10,7 +10,16 @@ background-color: rgb(66, 59, 59);
     margin: 50px;
     justify-content: center;
     align-items: center;
+} 
+
+p {
+color: rgb(105, 105, 105);
 }
+h1 {
+    color: rgb(220, 220, 220);
+}
+
+
 .boto1 {
    list-style: none;
    display: inline-block;
@@ -29,7 +38,7 @@ background-color: rgb(66, 59, 59);
    margin-right: 20px;
 }
 .fondo {
-background-image: url(./cafe.png);
+background-image: url(../img/imagen.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;

@@ -1,0 +1,12 @@
+.fondo {
+    background-image: url(../img/imagen.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+h1 {
+    color: #ffffff;
+}
+    p {
+    color: rgb(105, 105, 105);
+}

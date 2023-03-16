@@ -50,3 +50,11 @@ img {
     margin-left: 480px;
     margin: 0 auto;
 }
+.fotos
+{
+margin-right: 30px;
+}
+.espacio {
+   display: flex;
+   justify-content: center;
+}

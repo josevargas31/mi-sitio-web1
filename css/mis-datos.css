@@ -33,8 +33,11 @@ color: rgb(220, 220, 220);
     box-shadow: 0 9px rgb(139, 69, 19); /* Sombra del boton*/
     margin-right: 20px; /*separar los botones*/
  }
- .parrafo {
-    margin: 10px;
-    margin-bottom: 10px;
-    padding: 15px 30px;
+ .fotos
+ {
+margin-right: 20px;
+ }
+ .espacio {
+    display: flex;
+    justify-content: center;
  }

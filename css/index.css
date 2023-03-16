@@ -1,8 +1,7 @@
 body {
 background-color: rgb(66, 59, 59);
 }
-.lista {
-    color: red;
+.lista { /* Para centar el boton */
     font-size: 1.6em;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -30,11 +29,11 @@ h1 {
    text-decoration: none; /*  */
    outline: none; /*  */
    color: rgb(225, 0, 0); /* El puento del boton */
-   background-color: rgb(189, 183, 107); /*Color del fondo del boton*/
+   background-color: rgb(205, 133, 63); /*Color del fondo del boton*/
    border: none; /*Se le hace un color de borde dependiendo de los siguientes datos, ej {2px solid red) se utilizaria sin las comillas*/
    border-radius: 15px;/*Cambia las esquinas rodondeandolo*/
 
-   box-shadow: 0 9px #000000; /* Sombra del boton*/
+   box-shadow: 0 9px rgb(139, 69, 19); /* Sombra del boton*/
    margin-right: 20px; /*separar los botones*/
 }
 .fondo {
@@ -44,8 +43,8 @@ background-attachment: fixed;
 background-size: cover;
 }
 img {
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 250px;
     display: flex;
     size: cover;
     margin-left: 480px;

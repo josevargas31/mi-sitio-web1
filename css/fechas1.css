@@ -30,9 +30,9 @@
         box-shadow: 0 9px rgb(105, 105, 105); /* Sombra del boton*/
         margin-right: 20px; /*separar los botones*/
      }
-     .i3 {
-        width: 400px;
-        height: 450px;
+     .i5 {
+        width: 500px;
+        height: 350px;
         display: flex;
         size: cover;
         margin-left: 480px;
@@ -42,4 +42,3 @@
         color: rgb(220, 220, 220);
         text-align: center;
      }
-    

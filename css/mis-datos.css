@@ -6,6 +6,8 @@ background-size: cover;
 }
 p {
 color: rgb(220, 220, 220);
+text-align: justify;
+margin-top: 30px;
 }
 .lista { /* Para centar el boton */
     font-size: 1.6em;
@@ -32,12 +34,4 @@ color: rgb(220, 220, 220);
  
     box-shadow: 0 9px rgb(139, 69, 19); /* Sombra del boton*/
     margin-right: 20px; /*separar los botones*/
- }
- .fotos
- {
-margin-right: 20px;
- }
- .espacio {
-    display: flex;
-    justify-content: center;
  }

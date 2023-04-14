@@ -35,6 +35,15 @@ h1 {
 
    box-shadow: 0 9px rgb(139, 69, 19); /* Sombra del boton*/
    margin-right: 20px; /*separar los botones*/
+
+   border-radius: 10px;
+   border: 5px solid rgb(255, 160, 122);
+   margin-top: 5px;
+}
+button:hover {
+   border-radius: 8px;
+   border: 8px double rgb(255, 228, 181);
+   box-shadow: 0 0 10px rgb(244, 164, 96), 0 0 15px rgb(220, 220, 220), 0 0 20px rgb(160, 82, 45);
 }
 .fondo {
 background-image: url(../img/imagen.jpg);

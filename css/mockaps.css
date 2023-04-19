@@ -1,27 +1,10 @@
 
-.boto1 {
-    list-style: none; /*Para quitar el boton de inicio en los link*/
-    display: inline-block; /*  */
-    padding: 10px 20px; /*  */
-    font-size: 14px; /*Se establece el tamaño de la fuente*/
-    cursor: pointer; /*  */
-    text-align: center; /*  */
-    text-decoration: none; /*  */
-    outline: none; /*  */
-    color: rgb(225, 0, 0); /* El puento del boton */
-    background-color: rgb(205, 133, 63); /*Color del fondo del boton*/
-    border: none; /*Se le hace un color de borde dependiendo de los siguientes datos, ej {2px solid red) se utilizaria sin las comillas*/
-    border-radius: 15px;/*Cambia las esquinas rodondeandolo*/
- 
-    box-shadow: 0 9px rgb(139, 69, 19); /* Sombra del boton*/
-    margin-right: 20px; /*separar los botones*/
- }
  .lista { /* Para centar el boton */
     font-size: 1.6em;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
-    margin: 50px;
+    margin: 30px;
     justify-content: center;
     align-items: center;
 } 
@@ -32,7 +15,7 @@
     background-size: cover;
     margin-top: 20%;
 }
-.boto2 {
+.boto1 {
     list-style: none; /*Para quitar el boton de inicio en los link*/
     display: inline-block; /*  */
     padding: 10px 20px; /*  */
@@ -49,5 +32,13 @@
     box-shadow: 0 9px rgb(105, 105, 105); /* Sombra del boton*/
     margin-right: 20px; /*separar los botones*/
     margin-top: 15%;
+}
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: cover;
+    margin-left: 480px;
+    margin: 0 auto;
 }
     

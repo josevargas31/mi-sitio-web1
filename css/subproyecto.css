@@ -1,0 +1,62 @@
+* {
+    margin: 0; 
+}
+body {
+    background: linear-gradient(	PapayaWhip,PaleGreen);
+    width: 100%;
+    height: 100vh;
+}
+input {
+    list-style: none; /*Para quitar el boton de inicio en los link*/
+    display: inline-block; /*  */
+    padding: 10px 20px; /* tamaño de la margen del boton */
+    font-size: 14px; /*Se establece el tamaño de la fuente*/
+    cursor: pointer; /*  */
+    text-align: center; /*  */
+    text-decoration: none; /*  */
+    outline: none; /*  */
+    border: none; /*Se le hace un color de borde dependiendo de los siguientes datos, ej {2px solid red) se utilizaria sin las comillas*/
+    border-radius: 15px;/*Cambia las esquinas rodondeandolo*/
+    margin-right: 20px; /*separar los botones*/
+
+}
+.lista { /* Para centar el boton */
+    font-size: 1.6em;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+} 
+.lista1 { /* Para centar el boton */
+    font-size: 1.6em;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+} 
+h1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.lista1 {
+    list-style: none; /*Para quitar el boton de inicio en los link*/
+    display: inline-block; /*  */
+    padding: 10px 20px; /* tamaño de la margen del boton */
+    font-size: 14px; /*Se establece el tamaño de la fuente*/
+    cursor: pointer; /*  */
+    text-align: center; /*  */
+    text-decoration: none; /*  */
+    outline: none; /*  */
+    border: none; /*Se le hace un color de borde dependiendo de los siguientes datos, ej {2px solid red) se utilizaria sin las comillas*/
+    border-radius: 15px;/*Cambia las esquinas rodondeandolo*/
+    margin-right: 20px; /*separar los botones*/
+}
+.total1{
+    display: inline-block;
+}

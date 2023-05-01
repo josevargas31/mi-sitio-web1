@@ -4,7 +4,7 @@
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
-    margin: 30px;
+    margin: 20px 5px;
     justify-content: center;
     align-items: center;
 } 
@@ -13,7 +13,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    margin-top: 20%;
+    margin-top: 20px;
 }
 .boto1 {
     list-style: none; /*Para quitar el boton de inicio en los link*/
@@ -38,7 +38,6 @@ img {
     justify-content: center;
     align-items: center;
     size: cover;
-    margin-left: 480px;
     margin: 0 auto;
 }
     

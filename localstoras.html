@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localstoras</title>
+    <link rel="stylesheet" href="css/localstoras.css">
+    <script defer src="js/localstoras.js"></script>
+</head>
+<body>
+    <h1>Local </h1>
+    <input type="text" id="nombre" placeholder="Nombre"><br><br>
+    <input type="text" id="apellido" placeholder="Apellido"><br><br>
+    <input type="date" id="fecha" placeholder="Fecha"><br><br>
+    <input type="text" id="direccion" placeholder="Direccion"><br><br>
+    <button onclick="almacenarData()">Guardad</button>
+    <hr>
+    <p>Nombre almacenado: <j id="datoNombre"></j></p>
+    <p>Apellido almacenado: <j id="datoApellido"></j></p>
+    <p>Fecha almacenada: <j id="datoFecha"></j></p>
+    <p>Direccion almacenada: <j id="datoDireccion"></j></p>
+    <p>
+        <button onclick="cargarData()">Cargar elementos</button>
+    </p>
+
+</body>
+</html>

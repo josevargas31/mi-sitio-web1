@@ -11,6 +11,8 @@ const j = document.querySelector("#dato10")
 const k = document.querySelector("#dato11")
 const l = document.querySelector("#dato12")
 
+ const link = document.querySelector('a[href="fichaT1.html"]'); 
+
 function getFicha(){
     let uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez, once, doce 
 uno = document.getElementById("nom_producto").value
@@ -27,19 +29,18 @@ once = document.getElementById("requerimientos").value
 doce = document.getElementById("cliente").value
 
 //almacenamiento local con localstorege
-localStorage.setItem("nom_product",uno);
-localStorage.setItem("linea",dos);
-localStorage.setItem("versiones",tres);
-localStorage.setItem("version",cuatro);
-localStorage.setItem("nom_product",cinco);
-localStorage.setItem("linea",seis);
-localStorage.setItem("versiones",siete);
-localStorage.setItem("version",ocho);
-localStorage.setItem("nom_product",nueve);
-localStorage.setItem("linea",diez);
-localStorage.setItem("versiones",once);
-localStorage.setItem("version",doce);
-
+localStorage.setItem("Nombre del Producto",uno);
+localStorage.setItem("Nombre del cliente",dos);
+localStorage.setItem("Numero de Producto",tres);
+localStorage.setItem("Version de Producto",cuatro);
+localStorage.setItem("Descripcion General",cinco);
+localStorage.setItem("Tipo de Arquitectura",seis);
+localStorage.setItem("Requerimiento físico",siete);
+localStorage.setItem("Requerimiento lógico",ocho);
+localStorage.setItem("Recomendaciones sistema",nueve);
+localStorage.setItem("Requerimiento sistema",diez);
+localStorage.setItem("Funciones adicionales",once);
+localStorage.setItem("Caracteristicas cliente",doce);
 
 //limpiando los campos o inputs
 document.getElementById("nom_producto").value = "";
@@ -61,7 +62,7 @@ let uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez, once, doce
 uno = localStorage.getItem("Nombre del Producto");
 dos = localStorage.getItem("Nombre del cliente");
 tres = localStorage.getItem("Numero de Producto");
-cuatro = localStorage.getItem("Numero de Producto");
+cuatro = localStorage.getItem("Version de Producto");
 cinco = localStorage.getItem("Descripcion General");
 seis = localStorage.getItem("Tipo de Arquitectura");
 siete = localStorage.getItem("Requerimiento físico");
@@ -70,7 +71,6 @@ nueve = localStorage.getItem("Recomendaciones sistema");
 diez = localStorage.getItem("Requerimiento sistema");
 once = localStorage.getItem("Funciones adicionales");
 doce = localStorage.getItem("Caracteristicas cliente");
-
 
 //mostrar datos almacenados
 a.innerHTML = uno;
@@ -87,45 +87,9 @@ k.innerHTML = once;
 l.innerHTML = doce;
 }
 
-
-
-
-
-
-    /* let nom_producto = document.getElementById("nom_producto").value
-    document.getElementById("resproduct").innerText = nom_producto
-
-    let linea = document.getElementById("linea").value
-    document.getElementById("reslinea").innerText = linea
-
-    let versiones = document.getElementById("versiones").value
-    document.getElementById("resanterior").innerText = versiones
-
-    let version = document.getElementById("version").value
-    document.getElementById("resactual").innerText = version
-
-
-
-    let descripcion = document.getElementById("descripcion").value
-    document.getElementById("resdescripcion").innerText = descripcion
-
-    let descripciones = document.getElementById("descripciones").value
-    document.getElementById("resdescripciones").innerText = descripciones
-
-    let productor = document.getElementById("productor").value
-    document.getElementById("resproductor").innerText = productor
-
-    let producto = document.getElementById("producto").value
-    document.getElementById("resproducto").innerText = producto
-
-    let otro = document.getElementById("otro").value
-    document.getElementById("resotro").innerText = otro
-
-    let requerimiento = document.getElementById("requerimiento").value
-    document.getElementById("resrequerimiento").innerText = requerimiento
-
-    let requerimientos = document.getElementById("requerimientos").value
-    document.getElementById("resrequerimientos").innerText = requerimientos
-
-    let cliente = document.getElementById("cliente").value
-    document.getElementById("rescliente").innerText = cliente */
+/* function getcargar() { */
+    /* ocation.href = "link" */
+    /* window.location.href = link; */
+    window.onload = function() {
+        cargardata()
+    }

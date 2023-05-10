@@ -1,4 +1,4 @@
 window.onload = function() {
-    cargardata()
+    getcargar()
 } 
 /* pendiente (quitar por si las moscas) */

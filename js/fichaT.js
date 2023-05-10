@@ -90,6 +90,6 @@ l.innerHTML = doce;
 /* function getcargar() { */
     /* ocation.href = "link" */
     /* window.location.href = link; */
-    window.onload = function() {
-        cargardata()
-    }
+    /* window.onload = function() {
+        cargardata() */
+    

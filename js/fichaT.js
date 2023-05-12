@@ -10,11 +10,12 @@ const i = document.querySelector("#dato9")
 const j = document.querySelector("#dato10")
 const k = document.querySelector("#dato11")
 const l = document.querySelector("#dato12")
+const z = document.querySelector("#dato15")
 
- const link = document.querySelector('a[href="fichaT1.html"]'); 
+/*  const link = document.querySelector('a[href="fichaT1.html"]');  */
 
 function getFicha(){
-    let uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez, once, doce 
+    let uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez, once, doce, quince
 uno = document.getElementById("nom_producto").value
 dos = document.getElementById("linea").value
 tres = document.getElementById("versiones").value
@@ -27,6 +28,7 @@ nueve = document.getElementById("otro").value
 diez = document.getElementById("requerimiento").value
 once = document.getElementById("requerimientos").value
 doce = document.getElementById("cliente").value
+quince = document.getElementById("modulo").value
 
 //almacenamiento local con localstorege
 localStorage.setItem("Nombre del Producto",uno);
@@ -41,6 +43,7 @@ localStorage.setItem("Recomendaciones sistema",nueve);
 localStorage.setItem("Requerimiento sistema",diez);
 localStorage.setItem("Funciones adicionales",once);
 localStorage.setItem("Caracteristicas cliente",doce);
+localStorage.setItem("Modulo",quince);
 
 //limpiando los campos o inputs
 document.getElementById("nom_producto").value = "";
@@ -55,10 +58,11 @@ document.getElementById("otro").value = "";
 document.getElementById("requerimiento").value = "";
 document.getElementById("requerimientos").value = "";
 document.getElementById("cliente").value = "";
+document.getElementById("modulo").value = "";
 }
 
 function getcargar(){
-let uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez, once, doce 
+let uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez, once, doce, quince
 uno = localStorage.getItem("Nombre del Producto");
 dos = localStorage.getItem("Nombre del cliente");
 tres = localStorage.getItem("Numero de Producto");
@@ -71,6 +75,7 @@ nueve = localStorage.getItem("Recomendaciones sistema");
 diez = localStorage.getItem("Requerimiento sistema");
 once = localStorage.getItem("Funciones adicionales");
 doce = localStorage.getItem("Caracteristicas cliente");
+quince = localStorage.getItem("Modulo");
 
 //mostrar datos almacenados
 a.innerHTML = uno;
@@ -85,6 +90,10 @@ i.innerHTML = nueve;
 j.innerHTML = diez;
 k.innerHTML = once;
 l.innerHTML = doce;
+z.innerHTML = quince;
+}
+function clearlocalStorage(){
+    localStorage.clear();
 }
 
 /* function getcargar() { */
@@ -93,3 +102,6 @@ l.innerHTML = doce;
     /* window.onload = function() {
         cargardata() */
     
+
+        //Simon
+        //2692929
